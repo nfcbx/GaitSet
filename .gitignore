@@ -1,1 +1,5 @@
 .idea/
+DataSet
+pretreatment.log
+model/utils/__pycache__/
+model/network/__pycache__/
