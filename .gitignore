@@ -1,5 +1,25 @@
-.idea/
 DataSet
-pretreatment.log
-model/utils/__pycache__/
-model/network/__pycache__/
+# 忽略 Python 缓存文件和目录
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略虚拟环境目录
+venv/
+env/
+
+# 忽略环境变量文件
+.env
+
+# 忽略本地配置文件
+*.local
+*.settings
+
+# 忽略日志文件
+*.log
+
+# 忽略特定工具或编辑器的文件
+.vscode/
+.idea/
+.DS_Store
